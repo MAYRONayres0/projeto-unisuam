@@ -3,14 +3,16 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 nav {
     padding: 15px;
     align-items: center;
 
-    
-    
+
+
 }
-nav > a{
+
+nav>a {
     text-decoration: none;
     background-color: red;
     color: white;
@@ -18,23 +20,29 @@ nav > a{
     margin: 20px;
     padding: 6px;
     border-radius: 10px;
-    
+
 }
 
-nav > a:hover{
+#login {
+    width: 30px;
+    float: right;
+    padding: auto;
+}
+
+nav>a:hover {
 
     background-color: rgb(128, 127, 127);
 }
 
-header > img {
-    width: 1500px;
+header>img {
+    width: 1600px;
     height: 350px;
-} 
+}
 
-main{
+main {
     background-color: rgb(181, 177, 177);
     padding: 10px;
-    width: 100%;
+    width: auto;
 }
 
 
@@ -49,21 +57,22 @@ div img {
     justify-content: space-between;
 }
 
-div > h3 {
+div>h3 {
     text-align: center;
 }
 
-div > p {
+div>p {
     text-align: center;
 }
 
 #carro {
     display: flex;
     flex-direction: row;
-    spa
+    
 }
-.carros{
-  
+
+.carros {
+
     border: 2px solid white;
     width: 235px;
     background-color: white;
@@ -86,7 +95,7 @@ footer {
     text-align: center;
 }
 
-footer > h2 {
+footer>h2 {
     border: 15px;
     background-color: red;
     box-shadow: 5px 5px 6px rgba(255, 255, 255, 0.266);
